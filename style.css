@@ -1,0 +1,69 @@
+body {
+    font: normal 15px Arial;
+    background-color: rgb(115, 231, 92);
+}
+
+#main {
+    background-color: white;
+    width: 357px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(150, 55, 55);
+    border-width: 2px;
+    box-shadow: 5px 5px 0px black;
+}
+
+#first {
+    background-color: rgb(115, 231, 92);
+    width: 95px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+#img1 {
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-block-end: 2px;
+}
+
+#cont1 {
+    color: rgb(143, 135, 135);
+    margin-top: 0px;
+    font-size: medium;
+}
+
+#title {
+    margin-block-end: 0px;
+}
+
+#nome {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    margin-block-end: 25px;
+}
+
+#title:hover {
+    color: rgb(216, 176, 73);
+}
+
+.attribution {
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 758px) {
+    body {
+        scale: 0.8;
+    }
+    #main {
+        margin-left: auto;
+        margin-left: auto;
+    }
+}
